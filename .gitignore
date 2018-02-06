@@ -99,6 +99,7 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *,cover
+*.cover
 .hypothesis/
 
 # Translations
@@ -130,6 +131,9 @@ target/
 
 # celery beat schedule file
 celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
 
 # dotenv
 .env
@@ -163,3 +167,8 @@ chromedriver.exe
 
 # Static file
 linkin/static
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
